@@ -5,8 +5,7 @@
 /.pnp
 .pnp.js
 
-.yarn/cache
-.yarn/unplugged
+/.yarn/unplugged
 
 
 # testing
