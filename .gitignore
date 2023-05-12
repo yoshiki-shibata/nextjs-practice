@@ -5,7 +5,6 @@
 /.pnp
 .pnp.js
 
-/.yarn/unplugged
 
 
 # testing
@@ -36,3 +35,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/.yarn/unplugged/
