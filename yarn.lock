@@ -2996,6 +2996,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/typography@npm:^0.5.9":
+  version: 0.5.9
+  resolution: "@tailwindcss/typography@npm:0.5.9"
+  dependencies:
+    lodash.castarray: "npm:^4.4.0"
+    lodash.isplainobject: "npm:^4.0.6"
+    lodash.merge: "npm:^4.6.2"
+    postcss-selector-parser: "npm:6.0.10"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: b08049f36100bf15367fb41d75c957936d00dc26307f4fe8ccf1ab761b3d6ecd0e76ee7e08ed543344fae3596e57ea7af742f1b5025a9395ae87316f0e7b4cc8
+  languageName: node
+  linkType: hard
+
 "@testing-library/dom@npm:^9.0.0":
   version: 9.3.0
   resolution: "@testing-library/dom@npm:9.3.0"
@@ -4811,6 +4825,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"class-variance-authority@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "class-variance-authority@npm:0.6.0"
+  dependencies:
+    clsx: "npm:1.2.1"
+  peerDependencies:
+    typescript: ">= 4.5.5 < 6"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 50cebdcdcc6f353c74999afa4a63a51089999f82e2ba40834748fd7b2b10e2df25cbc15db17a6de57c14abf358e6f26be35659b7fd7b7b704b6fa69f9b15d5c7
+  languageName: node
+  linkType: hard
+
 "classnames@npm:2.3.1":
   version: 2.3.1
   resolution: "classnames@npm:2.3.1"
@@ -4889,7 +4917,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^1.2.1":
+"clsx@npm:1.2.1, clsx@npm:^1.2.1":
   version: 1.2.1
   resolution: "clsx@npm:1.2.1"
   checksum: cae17fd0fd5ea449d000c681169a8a6f7add4929b369cae3e2d5b604fba2798b39334121e467dbf6ac752562c28a6894a443f30761b004317c0668eb031af52d
@@ -8879,10 +8907,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.castarray@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "lodash.castarray@npm:4.4.0"
+  checksum: 795ba1604c0910b232092b9308fd25aac7d6751640fe32343135bcae52689664a6b60f56192b26517320f5c35f8f135a7714ae57a9868c7b642a37803ca8839d
+  languageName: node
+  linkType: hard
+
 "lodash.debounce@npm:^4.0.8":
   version: 4.0.8
   resolution: "lodash.debounce@npm:4.0.8"
   checksum: 960a803d892fc09976e7b559c36407000c3beb136cf20e88ae6a694b5d7cf64e31dde516079140a945ba695b7d5e5699444d61fd13a70ff7de409bbae7604005
+  languageName: node
+  linkType: hard
+
+"lodash.isplainobject@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "lodash.isplainobject@npm:4.0.6"
+  checksum: fd98cdf396efd994340f99a968553f6d37ca5a0e6bcf1e6cbe5953c1ef2ad04dca0503d6979f38938aad0d865940fdfddda85cbc365850d114187afac29f8d04
   languageName: node
   linkType: hard
 
@@ -10688,6 +10730,16 @@ __metadata:
   peerDependencies:
     postcss: ^8.2.14
   checksum: af41655f1c7b2d4b05da4a6cc6fc910b543362225fe453dfe4770d27a6e9be27dcd84792e6678141bd7c0a65261b92a55881791eb6d8d47daa7b75e3178cc415
+  languageName: node
+  linkType: hard
+
+"postcss-selector-parser@npm:6.0.10":
+  version: 6.0.10
+  resolution: "postcss-selector-parser@npm:6.0.10"
+  dependencies:
+    cssesc: "npm:^3.0.0"
+    util-deprecate: "npm:^1.0.2"
+  checksum: 7ab7cbeba12343c9b8034c556a8e463ec13adbcc891eb8c51bb8f97d65b6bcb5dcd641df7b30014241e3f2435e3f6fbdf3229a8bdd25c14d88df24cb19e8e864
   languageName: node
   linkType: hard
 
@@ -12695,6 +12747,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tailwind-merge@npm:^1.12.0":
+  version: 1.12.0
+  resolution: "tailwind-merge@npm:1.12.0"
+  checksum: 6bf27035df18483655b12423116af1f2e4208f665c8a41d8f6fbcad9b72a58c2d490065b124bfc061a3367d7130637073a54adf4479330aebc32baaed190c36c
+  languageName: node
+  linkType: hard
+
 "tailwindcss@npm:^3.3.2":
   version: 3.3.2
   resolution: "tailwindcss@npm:3.3.2"
@@ -13114,6 +13173,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"type-fest@npm:^3.11.0":
+  version: 3.11.0
+  resolution: "type-fest@npm:3.11.0"
+  checksum: 3857d14dde15d75988f9d2c5238d855e1fc1457eceb192036c974a77e18ec31d59f3ab08d5134a2e3fc03be5d4979e2401ca8cdd42bdbe961cbb8ccd62efcd6f
+  languageName: node
+  linkType: hard
+
 "type-is@npm:~1.6.18":
   version: 1.6.18
   resolution: "type-is@npm:1.6.18"
@@ -13408,6 +13474,7 @@ __metadata:
     "@emotion/react": "npm:^11.11.0"
     "@emotion/styled": "npm:^11.11.0"
     "@mui/material": "npm:^5.13.2"
+    "@tailwindcss/typography": "npm:^0.5.9"
     "@testing-library/react": "npm:^14.0.0"
     "@types/bootstrap": "npm:^5"
     "@types/jest": "npm:^29.5.1"
@@ -13417,6 +13484,8 @@ __metadata:
     antd: "npm:^5.5.1"
     autoprefixer: "npm:^10.4.14"
     bootstrap: "npm:^5.2.3"
+    class-variance-authority: "npm:^0.6.0"
+    clsx: "npm:^1.2.1"
     eslint: "npm:8.39.0"
     eslint-config-next: "npm:13.3.4"
     jest: "npm:^29.5.0"
@@ -13426,8 +13495,10 @@ __metadata:
     react-bootstrap: "npm:^2.7.4"
     react-bulma-components: "npm:4.1.0"
     react-dom: "npm:18.2.0"
+    tailwind-merge: "npm:^1.12.0"
     tailwindcss: "npm:^3.3.2"
     ts-jest: "npm:^29.1.0"
+    type-fest: "npm:^3.11.0"
     typescript: "npm:5.0.4"
     vercel: "npm:^29.3.0"
   languageName: unknown
